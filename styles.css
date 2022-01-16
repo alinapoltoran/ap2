@@ -1,0 +1,146 @@
+
+body{
+    background-color: rgb(255, 242, 224);
+    color: black;
+
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+p{
+    font-size: 20px;
+}
+a{
+    font-size: inherit;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+a.visited{
+    color: whitesmoke;
+}
+
+.bg-yellow{
+    background: rgb(247, 240, 135);
+}
+
+.bg-red{
+    background: rgb(250, 151, 151);
+}
+
+.bg-green{
+    background: rgb(148, 248, 139);
+}
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 17px;
+}
+.card h2{
+    margin-bottom: 10px;
+}
+.list{
+    padding: 0px 20px;
+    list-style: square;
+}
+.list li {
+    margin-bottom: 5px;
+}
+.table{
+    width: 100%;
+}
+.table td{
+    padding-bottom: 8px;
+}
+
+.avatar{
+    width: 250px;
+    border-radius: 5%;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h4{
+    margin-bottom: 10px;
+}
+.info p{
+    color: black;
+    margin: 0px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.form label{
+display: block;
+font-size: 14px;
+}
+.form input,
+.form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(70, 165, 91);
+    color: black;
+    padding: 10px 0 5px;
+    outline: none;
+    font-family: inherit;
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form{
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .form:last-child{
+    margin-right: 0;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.btn{
+    background: inherit;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.social{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 17px;
+    background: rgb(183, 183, 255) ;
+}
+.social-1{
+    padding: auto;
+    margin-bottom: 20px;
+
+}
+
+@media(max-width:700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
